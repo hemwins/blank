@@ -11,12 +11,12 @@ while True:
         check_status = 'stopped'
     elif user_input == 'STOP'and check_status == 'stopped':
         print("Already stopped. ")
-    elif user_input == 'QUIT':
-        print("exiting the game. ")
+    elif user_input == 'EXIT':
+        print("exiting the car. ")
         break
     elif user_input == 'HELP':
         print('''
             start - to start the car
             stop - to stop the car
-            quit - to exit  ''')
+            exit - to exit  ''')
 
